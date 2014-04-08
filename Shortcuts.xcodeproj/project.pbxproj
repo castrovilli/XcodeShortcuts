@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356D042916123F4A00CFBA5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D042816123F4A00CFBA5E /* UIKit.framework */; };
+		356D042B16123F4A00CFBA5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D042A16123F4A00CFBA5E /* Foundation.framework */; };
+		356D042D16123F4A00CFBA5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D042C16123F4A00CFBA5E /* CoreGraphics.framework */; };
+		356D043316123F4A00CFBA5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356D043116123F4A00CFBA5E /* InfoPlist.strings */; };
+		356D043516123F4A00CFBA5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D043416123F4A00CFBA5E /* main.m */; };
+		356D043916123F4A00CFBA5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D043816123F4A00CFBA5E /* AppDelegate.m */; };
+		356D043B16123F4A00CFBA5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D043A16123F4A00CFBA5E /* Default.png */; };
+		356D043D16123F4A00CFBA5E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D043C16123F4A00CFBA5E /* Default@2x.png */; };
+		356D043F16123F4A00CFBA5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D043E16123F4A00CFBA5E /* Default-568h@2x.png */; };
+		356D044216123F4A00CFBA5E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356D044016123F4A00CFBA5E /* MainStoryboard.storyboard */; };
+		356D046316123FA500CFBA5E /* paper4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 356D044F16123FA500CFBA5E /* paper4.wav */; };
+		356D046416123FA500CFBA5E /* rustle4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 356D045016123FA500CFBA5E /* rustle4.wav */; };
+		356D046516123FA500CFBA5E /* click10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 356D045116123FA500CFBA5E /* click10.wav */; };
+		356D046616123FA500CFBA5E /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045216123FA500CFBA5E /* logo1.png */; };
+		356D046716123FA500CFBA5E /* border_stretch.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045316123FA500CFBA5E /* border_stretch.png */; };
+		356D046816123FA500CFBA5E /* tv_stretch.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045416123FA500CFBA5E /* tv_stretch.png */; };
+		356D046916123FA500CFBA5E /* nav_white_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045516123FA500CFBA5E /* nav_white_32.png */; };
+		356D046A16123FA500CFBA5E /* nav_white_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045616123FA500CFBA5E /* nav_white_44.png */; };
+		356D046B16123FA500CFBA5E /* button_back_sel_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045716123FA500CFBA5E /* button_back_sel_30.png */; };
+		356D046C16123FA500CFBA5E /* button_back_uns_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045816123FA500CFBA5E /* button_back_uns_30.png */; };
+		356D046D16123FA500CFBA5E /* button_back_uns_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045916123FA500CFBA5E /* button_back_uns_24.png */; };
+		356D046E16123FA500CFBA5E /* button_back_sel_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045A16123FA500CFBA5E /* button_back_sel_24.png */; };
+		356D046F16123FA500CFBA5E /* button_faves_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045B16123FA500CFBA5E /* button_faves_sel.png */; };
+		356D047016123FA500CFBA5E /* button_faves_uns.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045C16123FA500CFBA5E /* button_faves_uns.png */; };
+		356D047116123FA500CFBA5E /* button_settings_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045D16123FA500CFBA5E /* button_settings_sel.png */; };
+		356D047216123FA500CFBA5E /* button_settings_uns.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045E16123FA500CFBA5E /* button_settings_uns.png */; };
+		356D047316123FA500CFBA5E /* text_favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D045F16123FA500CFBA5E /* text_favorites.png */; };
+		356D047416123FA500CFBA5E /* bg_200.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D046016123FA500CFBA5E /* bg_200.png */; };
+		356D047516123FA500CFBA5E /* text_xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D046116123FA500CFBA5E /* text_xcode.png */; };
+		356D047616123FA500CFBA5E /* text_mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D046216123FA500CFBA5E /* text_mainmenu.png */; };
+		356D047E161242BC00CFBA5E /* Shortcuts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 356D047716123FAD00CFBA5E /* Shortcuts.plist */; };
+		356D047F161242BC00CFBA5E /* ShortcutsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D047916123FAD00CFBA5E /* ShortcutsDatabase.m */; };
+		356D0480161242BC00CFBA5E /* Shortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D047B16123FAD00CFBA5E /* Shortcut.m */; };
+		356D0481161242BC00CFBA5E /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D047D16123FAD00CFBA5E /* UserData.m */; };
+		356D0483161242DD00CFBA5E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D0482161242DD00CFBA5E /* AudioToolbox.framework */; };
+		356D0491161249B500CFBA5E /* DictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D0487161249B500CFBA5E /* DictionaryViewController.m */; };
+		356D0492161249B500CFBA5E /* ShortcutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D0489161249B500CFBA5E /* ShortcutsViewController.m */; };
+		356D0493161249B500CFBA5E /* SearchableShortcutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D048B161249B500CFBA5E /* SearchableShortcutsViewController.m */; };
+		356D0494161249B500CFBA5E /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D048D161249B500CFBA5E /* FavoritesViewController.m */; };
+		356D0495161249B500CFBA5E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D048F161249B500CFBA5E /* SettingsViewController.m */; };
+		356D049816124BC500CFBA5E /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D049716124BC500CFBA5E /* MainMenuViewController.m */; };
+		356D049D16125FE500CFBA5E /* MainStoryboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356D049B16125FE500CFBA5E /* MainStoryboard-iPad.storyboard */; };
+		35A3A1BF161268D4006AAE7E /* iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A3A1BE161268D4006AAE7E /* iPadViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		356D042416123F4A00CFBA5E /* Shortcuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortcuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356D042816123F4A00CFBA5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		356D042A16123F4A00CFBA5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		356D042C16123F4A00CFBA5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		356D043016123F4A00CFBA5E /* Shortcuts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shortcuts-Info.plist"; sourceTree = "<group>"; };
+		356D043216123F4A00CFBA5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		356D043416123F4A00CFBA5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		356D043616123F4A00CFBA5E /* Shortcuts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shortcuts-Prefix.pch"; sourceTree = "<group>"; };
+		356D043716123F4A00CFBA5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		356D043816123F4A00CFBA5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		356D043A16123F4A00CFBA5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		356D043C16123F4A00CFBA5E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		356D043E16123F4A00CFBA5E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		356D044116123F4A00CFBA5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		356D044F16123FA500CFBA5E /* paper4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = paper4.wav; sourceTree = "<group>"; };
+		356D045016123FA500CFBA5E /* rustle4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rustle4.wav; sourceTree = "<group>"; };
+		356D045116123FA500CFBA5E /* click10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click10.wav; sourceTree = "<group>"; };
+		356D045216123FA500CFBA5E /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		356D045316123FA500CFBA5E /* border_stretch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border_stretch.png; sourceTree = "<group>"; };
+		356D045416123FA500CFBA5E /* tv_stretch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv_stretch.png; sourceTree = "<group>"; };
+		356D045516123FA500CFBA5E /* nav_white_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_white_32.png; sourceTree = "<group>"; };
+		356D045616123FA500CFBA5E /* nav_white_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_white_44.png; sourceTree = "<group>"; };
+		356D045716123FA500CFBA5E /* button_back_sel_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_sel_30.png; sourceTree = "<group>"; };
+		356D045816123FA500CFBA5E /* button_back_uns_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_uns_30.png; sourceTree = "<group>"; };
+		356D045916123FA500CFBA5E /* button_back_uns_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_uns_24.png; sourceTree = "<group>"; };
+		356D045A16123FA500CFBA5E /* button_back_sel_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_sel_24.png; sourceTree = "<group>"; };
+		356D045B16123FA500CFBA5E /* button_faves_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_faves_sel.png; sourceTree = "<group>"; };
+		356D045C16123FA500CFBA5E /* button_faves_uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_faves_uns.png; sourceTree = "<group>"; };
+		356D045D16123FA500CFBA5E /* button_settings_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_settings_sel.png; sourceTree = "<group>"; };
+		356D045E16123FA500CFBA5E /* button_settings_uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_settings_uns.png; sourceTree = "<group>"; };
+		356D045F16123FA500CFBA5E /* text_favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_favorites.png; sourceTree = "<group>"; };
+		356D046016123FA500CFBA5E /* bg_200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_200.png; sourceTree = "<group>"; };
+		356D046116123FA500CFBA5E /* text_xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_xcode.png; sourceTree = "<group>"; };
+		356D046216123FA500CFBA5E /* text_mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_mainmenu.png; sourceTree = "<group>"; };
+		356D047716123FAD00CFBA5E /* Shortcuts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Shortcuts.plist; sourceTree = "<group>"; };
+		356D047816123FAD00CFBA5E /* ShortcutsDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortcutsDatabase.h; sourceTree = "<group>"; };
+		356D047916123FAD00CFBA5E /* ShortcutsDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortcutsDatabase.m; sourceTree = "<group>"; };
+		356D047A16123FAD00CFBA5E /* Shortcut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shortcut.h; sourceTree = "<group>"; };
+		356D047B16123FAD00CFBA5E /* Shortcut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shortcut.m; sourceTree = "<group>"; };
+		356D047C16123FAD00CFBA5E /* UserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		356D047D16123FAD00CFBA5E /* UserData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		356D0482161242DD00CFBA5E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		356D0486161249B500CFBA5E /* DictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryViewController.h; sourceTree = "<group>"; };
+		356D0487161249B500CFBA5E /* DictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryViewController.m; sourceTree = "<group>"; };
+		356D0488161249B500CFBA5E /* ShortcutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutsViewController.h; sourceTree = "<group>"; };
+		356D0489161249B500CFBA5E /* ShortcutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutsViewController.m; sourceTree = "<group>"; };
+		356D048A161249B500CFBA5E /* SearchableShortcutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchableShortcutsViewController.h; sourceTree = "<group>"; };
+		356D048B161249B500CFBA5E /* SearchableShortcutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchableShortcutsViewController.m; sourceTree = "<group>"; };
+		356D048C161249B500CFBA5E /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		356D048D161249B500CFBA5E /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		356D048E161249B500CFBA5E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		356D048F161249B500CFBA5E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		356D049616124BC500CFBA5E /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		356D049716124BC500CFBA5E /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		356D049C16125FE500CFBA5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/MainStoryboard-iPad.storyboard"; sourceTree = "<group>"; };
+		35A3A1BD161268D4006AAE7E /* iPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadViewController.h; sourceTree = "<group>"; };
+		35A3A1BE161268D4006AAE7E /* iPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356D042116123F4A00CFBA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D0483161242DD00CFBA5E /* AudioToolbox.framework in Frameworks */,
+				356D042916123F4A00CFBA5E /* UIKit.framework in Frameworks */,
+				356D042B16123F4A00CFBA5E /* Foundation.framework in Frameworks */,
+				356D042D16123F4A00CFBA5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356D041916123F4A00CFBA5E = {
+			isa = PBXGroup;
+			children = (
+				356D042E16123F4A00CFBA5E /* Shortcuts */,
+				356D042716123F4A00CFBA5E /* Frameworks */,
+				356D042516123F4A00CFBA5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		356D042516123F4A00CFBA5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356D042416123F4A00CFBA5E /* Shortcuts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356D042716123F4A00CFBA5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356D0482161242DD00CFBA5E /* AudioToolbox.framework */,
+				356D042816123F4A00CFBA5E /* UIKit.framework */,
+				356D042A16123F4A00CFBA5E /* Foundation.framework */,
+				356D042C16123F4A00CFBA5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		356D042E16123F4A00CFBA5E /* Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				356D044B16123F6700CFBA5E /* Model */,
+				356D044C16123F6E00CFBA5E /* View Controllers */,
+				356D044D16123F7E00CFBA5E /* Main */,
+				356D044E16123F8A00CFBA5E /* Images and Sounds */,
+				356D042F16123F4A00CFBA5E /* Supporting Files */,
+			);
+			path = Shortcuts;
+			sourceTree = "<group>";
+		};
+		356D042F16123F4A00CFBA5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356D043016123F4A00CFBA5E /* Shortcuts-Info.plist */,
+				356D043116123F4A00CFBA5E /* InfoPlist.strings */,
+				356D043416123F4A00CFBA5E /* main.m */,
+				356D043616123F4A00CFBA5E /* Shortcuts-Prefix.pch */,
+				356D043A16123F4A00CFBA5E /* Default.png */,
+				356D043C16123F4A00CFBA5E /* Default@2x.png */,
+				356D043E16123F4A00CFBA5E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		356D044B16123F6700CFBA5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				356D047716123FAD00CFBA5E /* Shortcuts.plist */,
+				356D047816123FAD00CFBA5E /* ShortcutsDatabase.h */,
+				356D047916123FAD00CFBA5E /* ShortcutsDatabase.m */,
+				356D047A16123FAD00CFBA5E /* Shortcut.h */,
+				356D047B16123FAD00CFBA5E /* Shortcut.m */,
+				356D047C16123FAD00CFBA5E /* UserData.h */,
+				356D047D16123FAD00CFBA5E /* UserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		356D044C16123F6E00CFBA5E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35A3A1BD161268D4006AAE7E /* iPadViewController.h */,
+				35A3A1BE161268D4006AAE7E /* iPadViewController.m */,
+				356D049616124BC500CFBA5E /* MainMenuViewController.h */,
+				356D049716124BC500CFBA5E /* MainMenuViewController.m */,
+				356D0486161249B500CFBA5E /* DictionaryViewController.h */,
+				356D0487161249B500CFBA5E /* DictionaryViewController.m */,
+				356D0488161249B500CFBA5E /* ShortcutsViewController.h */,
+				356D0489161249B500CFBA5E /* ShortcutsViewController.m */,
+				356D048A161249B500CFBA5E /* SearchableShortcutsViewController.h */,
+				356D048B161249B500CFBA5E /* SearchableShortcutsViewController.m */,
+				356D048C161249B500CFBA5E /* FavoritesViewController.h */,
+				356D048D161249B500CFBA5E /* FavoritesViewController.m */,
+				356D048E161249B500CFBA5E /* SettingsViewController.h */,
+				356D048F161249B500CFBA5E /* SettingsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		356D044D16123F7E00CFBA5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				356D043716123F4A00CFBA5E /* AppDelegate.h */,
+				356D043816123F4A00CFBA5E /* AppDelegate.m */,
+				356D044016123F4A00CFBA5E /* MainStoryboard.storyboard */,
+				356D049B16125FE500CFBA5E /* MainStoryboard-iPad.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		356D044E16123F8A00CFBA5E /* Images and Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				356D044F16123FA500CFBA5E /* paper4.wav */,
+				356D045016123FA500CFBA5E /* rustle4.wav */,
+				356D045116123FA500CFBA5E /* click10.wav */,
+				356D045216123FA500CFBA5E /* logo1.png */,
+				356D045316123FA500CFBA5E /* border_stretch.png */,
+				356D045416123FA500CFBA5E /* tv_stretch.png */,
+				356D045516123FA500CFBA5E /* nav_white_32.png */,
+				356D045616123FA500CFBA5E /* nav_white_44.png */,
+				356D045716123FA500CFBA5E /* button_back_sel_30.png */,
+				356D045816123FA500CFBA5E /* button_back_uns_30.png */,
+				356D045916123FA500CFBA5E /* button_back_uns_24.png */,
+				356D045A16123FA500CFBA5E /* button_back_sel_24.png */,
+				356D045B16123FA500CFBA5E /* button_faves_sel.png */,
+				356D045C16123FA500CFBA5E /* button_faves_uns.png */,
+				356D045D16123FA500CFBA5E /* button_settings_sel.png */,
+				356D045E16123FA500CFBA5E /* button_settings_uns.png */,
+				356D045F16123FA500CFBA5E /* text_favorites.png */,
+				356D046016123FA500CFBA5E /* bg_200.png */,
+				356D046116123FA500CFBA5E /* text_xcode.png */,
+				356D046216123FA500CFBA5E /* text_mainmenu.png */,
+			);
+			name = "Images and Sounds";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356D042316123F4A00CFBA5E /* Shortcuts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356D044816123F4A00CFBA5E /* Build configuration list for PBXNativeTarget "Shortcuts" */;
+			buildPhases = (
+				356D042016123F4A00CFBA5E /* Sources */,
+				356D042116123F4A00CFBA5E /* Frameworks */,
+				356D042216123F4A00CFBA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shortcuts;
+			productName = Shortcuts;
+			productReference = 356D042416123F4A00CFBA5E /* Shortcuts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		356D041B16123F4A00CFBA5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Razeware LLC";
+			};
+			buildConfigurationList = 356D041E16123F4A00CFBA5E /* Build configuration list for PBXProject "Shortcuts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 356D041916123F4A00CFBA5E;
+			productRefGroup = 356D042516123F4A00CFBA5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356D042316123F4A00CFBA5E /* Shortcuts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356D042216123F4A00CFBA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D043316123F4A00CFBA5E /* InfoPlist.strings in Resources */,
+				356D043B16123F4A00CFBA5E /* Default.png in Resources */,
+				356D043D16123F4A00CFBA5E /* Default@2x.png in Resources */,
+				356D043F16123F4A00CFBA5E /* Default-568h@2x.png in Resources */,
+				356D044216123F4A00CFBA5E /* MainStoryboard.storyboard in Resources */,
+				356D046316123FA500CFBA5E /* paper4.wav in Resources */,
+				356D046416123FA500CFBA5E /* rustle4.wav in Resources */,
+				356D046516123FA500CFBA5E /* click10.wav in Resources */,
+				356D046616123FA500CFBA5E /* logo1.png in Resources */,
+				356D046716123FA500CFBA5E /* border_stretch.png in Resources */,
+				356D046816123FA500CFBA5E /* tv_stretch.png in Resources */,
+				356D046916123FA500CFBA5E /* nav_white_32.png in Resources */,
+				356D046A16123FA500CFBA5E /* nav_white_44.png in Resources */,
+				356D046B16123FA500CFBA5E /* button_back_sel_30.png in Resources */,
+				356D046C16123FA500CFBA5E /* button_back_uns_30.png in Resources */,
+				356D046D16123FA500CFBA5E /* button_back_uns_24.png in Resources */,
+				356D046E16123FA500CFBA5E /* button_back_sel_24.png in Resources */,
+				356D046F16123FA500CFBA5E /* button_faves_sel.png in Resources */,
+				356D047016123FA500CFBA5E /* button_faves_uns.png in Resources */,
+				356D047116123FA500CFBA5E /* button_settings_sel.png in Resources */,
+				356D047216123FA500CFBA5E /* button_settings_uns.png in Resources */,
+				356D047316123FA500CFBA5E /* text_favorites.png in Resources */,
+				356D047416123FA500CFBA5E /* bg_200.png in Resources */,
+				356D047516123FA500CFBA5E /* text_xcode.png in Resources */,
+				356D047616123FA500CFBA5E /* text_mainmenu.png in Resources */,
+				356D047E161242BC00CFBA5E /* Shortcuts.plist in Resources */,
+				356D049D16125FE500CFBA5E /* MainStoryboard-iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356D042016123F4A00CFBA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D043516123F4A00CFBA5E /* main.m in Sources */,
+				356D043916123F4A00CFBA5E /* AppDelegate.m in Sources */,
+				356D047F161242BC00CFBA5E /* ShortcutsDatabase.m in Sources */,
+				356D0480161242BC00CFBA5E /* Shortcut.m in Sources */,
+				356D0481161242BC00CFBA5E /* UserData.m in Sources */,
+				356D0491161249B500CFBA5E /* DictionaryViewController.m in Sources */,
+				356D0492161249B500CFBA5E /* ShortcutsViewController.m in Sources */,
+				356D0493161249B500CFBA5E /* SearchableShortcutsViewController.m in Sources */,
+				356D0494161249B500CFBA5E /* FavoritesViewController.m in Sources */,
+				356D0495161249B500CFBA5E /* SettingsViewController.m in Sources */,
+				356D049816124BC500CFBA5E /* MainMenuViewController.m in Sources */,
+				35A3A1BF161268D4006AAE7E /* iPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		356D043116123F4A00CFBA5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356D043216123F4A00CFBA5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		356D044016123F4A00CFBA5E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356D044116123F4A00CFBA5E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		356D049B16125FE500CFBA5E /* MainStoryboard-iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356D049C16125FE500CFBA5E /* en */,
+			);
+			name = "MainStoryboard-iPad.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356D044616123F4A00CFBA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		356D044716123F4A00CFBA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356D044916123F4A00CFBA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shortcuts/Shortcuts-Prefix.pch";
+				INFOPLIST_FILE = "Shortcuts/Shortcuts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		356D044A16123F4A00CFBA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shortcuts/Shortcuts-Prefix.pch";
+				INFOPLIST_FILE = "Shortcuts/Shortcuts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356D041E16123F4A00CFBA5E /* Build configuration list for PBXProject "Shortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356D044616123F4A00CFBA5E /* Debug */,
+				356D044716123F4A00CFBA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356D044816123F4A00CFBA5E /* Build configuration list for PBXNativeTarget "Shortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356D044916123F4A00CFBA5E /* Debug */,
+				356D044A16123F4A00CFBA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 356D041B16123F4A00CFBA5E /* Project object */;
+}
