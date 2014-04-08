@@ -149,8 +149,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="16" minValue="5" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czq-Xe-pOG">
-                                <rect key="frame" x="130" y="20" width="172" height="34"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="16" minValue="5" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czq-Xe-pOG">
+                                <rect key="frame" x="130" y="20" width="172" height="31"/>
                                 <connections>
                                     <action selector="fontSizeValueChanged:" destination="Pvr-Xy-Fjv" eventType="valueChanged" id="8G4-hI-hTU"/>
                                 </connections>
